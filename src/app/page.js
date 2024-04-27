@@ -1,5 +1,12 @@
-const Home = () => {
-  return <>Hello World</>;
+import Landing from "../components/Landing";
+import React from "react";
+
+const page = () => {
+  return (
+    <div className="">
+      <Landing />
+    </div>
+  );
 };
 
-export default Home;
+export default page;
