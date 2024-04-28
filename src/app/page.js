@@ -6,7 +6,7 @@ const page = () => {
   return (
     <div className="">
       <Landing />
-      <div>
+      <div className="flex flex-col text-center">
         <Button text="Search" background="bg-cyan-300" />
       </div>
     </div>
