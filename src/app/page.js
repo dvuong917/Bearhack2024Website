@@ -25,7 +25,7 @@ const Page = ({ state, city, zip, search }) => {
   };
 
   useEffect(() => {
-    getData("https://npiregistry.cms.hhs.gov/api/?version=2.1");
+    getData();
   }, []);
 
   console.log(results);
