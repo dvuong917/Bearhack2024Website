@@ -19,7 +19,7 @@ const ActiveCases = ({ state }) => {
 
   useEffect(() => {
     pullJson();
-  }, []);
+  }, [state]);
 
   return showPosts;
 };

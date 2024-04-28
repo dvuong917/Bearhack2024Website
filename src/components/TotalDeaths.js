@@ -19,7 +19,7 @@ const TotalDeaths = ({ state }) => {
 
   useEffect(() => {
     pullJson();
-  }, []);
+  }, [state]);
 
   return showPosts;
 };
