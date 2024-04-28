@@ -1,16 +1,8 @@
 import React from "react";
-import SortDropdown from "./SortDropdown";
 
-const Results = () => {
+const ProfileCard = ([doctor, locate, NPI, taxo]) => {
   return (
     <div className="justify-center items-center bg-sky-800">
-      <div className="flex flex-col text-6xl text-sky-400 font-bold">
-        Search Results
-      </div>
-      <div className="text-base text-neutral-950">
-        Sort By: <SortDropdown />{" "}
-      </div>
-
       <div className="flex flex-row p-2 round-lg border border-solid border-black">
         Profile Picture
       </div>
@@ -24,4 +16,4 @@ const Results = () => {
   );
 };
 
-export default Results;
+export default ProfileCard;
