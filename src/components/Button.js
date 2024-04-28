@@ -1,14 +1,10 @@
-import Link from "next/link";
-
-const Button = ({ text, background, link }) => {
+const Button = ({ text, background }) => {
   return (
-    <Link href={link}>
-      <p
-        className={`inline-block text-base font-semibold text-center px-4 py-4 ${background}`}
-      >
-        {text}
-      </p>
-    </Link>
+    <p
+      className={`inline-block text-base font-semibold text-center px-4 py-4 ${background}`}
+    >
+      {text}
+    </p>
   );
 };
 
