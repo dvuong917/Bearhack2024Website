@@ -8,7 +8,7 @@ const page = () => {
     <div className="">
       <Landing />
       <div className="flex flex-col text-center">
-        <Button text="Search" background="bg-cyan-300" link="results" />]
+        <Button text="Search" background="bg-cyan-300" href="www.google.com" />
       </div>
       <Dropdown />
     </div>
