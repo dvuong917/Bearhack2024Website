@@ -6,7 +6,7 @@ const Landing = () => {
   return (
     <div className="flex justify-center items-center bg-sky-800 ">
       <div className="text-6xl font-bold text-sky-400 flex flex-col gap-5 mt-5">
-        <p>Website Name</p>
+        <p>Dr. Discover</p>
         <div className="text-neutral-950 text-base bg-white py-3 flex flex-col gap-3 rounded-xl">
           <div className="flex flex-col text-4xl text-center underline">
             Provider Search
