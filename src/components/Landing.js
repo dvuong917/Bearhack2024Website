@@ -1,4 +1,6 @@
 import React from "react";
+import StateDropdown from "./StateDropdown";
+import DistanceDropdown from "./DistanceDropdown";
 
 const Landing = () => {
   return (
@@ -13,18 +15,52 @@ const Landing = () => {
             Search by location:
           </div>
           <div className="ml-20">
-            <div>State: </div>
-            <div>City: </div>
-            <div>Zip Code: </div>
-            <div>Search Radius: </div>
+            <div>
+              State: <StateDropdown />{" "}
+            </div>
+            <div>
+              City:{" "}
+              <input
+                className="rounded border  border-solid"
+                text="text"
+              ></input>
+            </div>
+            <div>
+              Zip Code:{" "}
+              <input
+                className="rounded border  border-solid"
+                text="text"
+              ></input>
+            </div>
+            <div>
+              Search Radius: <DistanceDropdown />
+            </div>
           </div>
           <div className="text-2xl flex flex-col text-center">
             Search by provider:{" "}
           </div>
           <div className="ml-20">
-            <div>Name:</div>
-            <div>NPI: </div>
-            <div>Taxonomy: </div>
+            <div>
+              Name:{" "}
+              <input
+                className="rounded border  border-solid"
+                text="text"
+              ></input>
+            </div>
+            <div>
+              NPI:{" "}
+              <input
+                className="rounded border  border-solid"
+                text="text"
+              ></input>
+            </div>
+            <div>
+              Taxonomy:{" "}
+              <input
+                className="rounded border  border-solid"
+                text="text"
+              ></input>
+            </div>
           </div>
         </div>
       </div>
